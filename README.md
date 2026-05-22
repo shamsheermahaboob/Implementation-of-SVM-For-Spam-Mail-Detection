@@ -19,7 +19,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 Program to implement the SVM For Spam Mail Detection..
 Developed by: SHAMSHEER BANU M
 RegisterNumber: 212225040400
-
+```
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -60,6 +60,7 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.title("Confusion Matrix for SVM Spam Detection")
 plt.show()
+```
 */
 
 ## output:
