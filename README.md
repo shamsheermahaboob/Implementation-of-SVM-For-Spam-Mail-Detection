@@ -15,11 +15,10 @@ To write a program to implement the SVM For Spam Mail Detection.
  
 
 ## Program:
-```
 /*
 Program to implement the SVM For Spam Mail Detection..
 Developed by: SHAMSHEER BANU M
-RegisterNumber:  212225040400
+RegisterNumber: 212225040400
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -29,7 +28,7 @@ from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("spam.csv", encoding='latin-1')
+data = pd.read_csv("spam (1).csv", encoding='latin-1')
 
 data = data[['v1','v2']]
 data.columns = ['label','message']
@@ -62,12 +61,10 @@ plt.ylabel("Actual")
 plt.title("Confusion Matrix for SVM Spam Detection")
 plt.show()
 */
-```
 
 ## output:
 
-<img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/269b1d7b-aabb-48c3-a170-3e816eee2a90" />
-
+<img width="613" height="490" alt="Screenshot 2026-05-18 144024" src="https://github.com/user-attachments/assets/ec400c0c-805d-4c38-bbda-bf8072d351d0" />
 
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
